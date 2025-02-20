@@ -48,3 +48,11 @@ h1, a, figcaption, p{
   font-weight: 400;
   font-style: normal;
 }
+
+.corner-gif {
+    position: absolute;
+    top: 25px;
+    left: 60px; 
+    width: 275px;
+    height: auto;
+}
