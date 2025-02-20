@@ -56,3 +56,17 @@ h1, a, figcaption, p{
     width: 275px;
     height: auto;
 }
+
+.corner-gif2{
+    position: fixed;
+    bottom: 25px;
+    right: 60px; 
+    width: 275px;
+    height: auto;
+    opacity: 0; /* Initially hidden */
+    display: none; /* Hides it completely */
+}
+
+body {
+    padding-bottom: 100px; 
+}

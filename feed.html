@@ -8,6 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feed</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener("scroll", function () {
+            let gif = document.querySelector(".corner-gif2");
+            let scrollPosition = window.innerHeight + window.scrollY;
+            let documentHeight = document.documentElement.scrollHeight;
+    
+            if (scrollPosition >= documentHeight - 10) {  
+                gif.style.display = "block"; // Instantly shows the GIF
+                gif.style.opacity = "1";
+            } else {
+                gif.style.display = "none"; // Instantly hides the GIF
+                gif.style.opacity = "0";
+            }
+        });
+    </script>
+    
 </head>
 <body>
     <style>
@@ -85,6 +101,8 @@
 
         </div>
     <a href="index.html">Back</a>
-<hr>
+
+    <img src="img/theFeedsmall.gif" alt="Animated GIF" class="corner-gif2">
 </body>
+
 </html>
