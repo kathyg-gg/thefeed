@@ -3,6 +3,10 @@ h1{
     color: rgb(85, 5, 5);
     margin-top: 50px;
     font-size: 40px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -31,7 +35,6 @@ p{
 figcaption{
     font-size: 19px;
     color: rgb(85, 5, 5);
-    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -44,7 +47,7 @@ a{
     font-size: 30px;
 }
 
-h1, a, figcaption, p{
+a, figcaption, p{
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
